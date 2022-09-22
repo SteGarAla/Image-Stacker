@@ -1,2 +1,12 @@
-# Image-Stacker
-Image Stacker Group Project
+# Group Assignment - Image Stacker
+
+##DESIGN DECISIONS:
+
+
+##HOW TO RUN THE PROGRAM:
+
+
+##CHALLENGES WE RAN INTO: 
+
+
+##HOW WE SHARED THE WORK:
