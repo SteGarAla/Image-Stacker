@@ -2,6 +2,8 @@
 
 ## DESIGN DECISIONS:
 
+One public method that calls two other private methods to do the work
+
 
 ## HOW TO RUN THE PROGRAM:
 Enter file name (make sure it is lowercase! and valid filename)
