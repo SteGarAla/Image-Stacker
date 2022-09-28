@@ -22,8 +22,8 @@ void stacker::imageChoice(string fName,int imgQty){
     this->fName = fName;
     this->imgQty = imgQty;
 
-    if(fName != "orion" && fName != "cone_nebula" && fName != "n44f" && fName != "wfc3_uvis"){
-        cout << "file not found" << endl;
+    if(fName != "orion" && fName != "cone_nebula" && fName != "n44f" && fName != "wfc3_uvis" && imgQty >= 1 && imgQty <= 10){
+        cout << "Try entering valid fileName and valid amount of images" << endl;
         return;
     }
     else{
