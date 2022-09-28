@@ -1,3 +1,12 @@
+/**
+ * @file stacker.cpp
+ * @author Steven Garcia-Alamilla
+ * @date 2022-09-28
+ * @brief stacker.cpp is 
+ * 
+ * Implementation file for the stacker class
+ */
+
 #include "stacker.h"
 #include <iostream>
 #include <string>
@@ -20,8 +29,7 @@ void stacker::imageChoice(string fName,int imgQty){
     else{
         cout << "Stacking images: " << endl;
 
-        string currIMG;
-        for(int i = 0; i < imgQty; i++){
+        string currIMG;        for(int i = 0; i < imgQty; i++){
             currIMG = fName + "/" + fName + "_00" + to_string(i + 1) +  ".ppm";
             if(i == 9){
                 currIMG = fName + "/" + fName + "_0" + to_string(i + 1) +  ".ppm";
@@ -94,10 +102,5 @@ void stacker::print(){
     for(int i = 0; i < width * height; i++){
         file <<  setw(4) << left << pixels[i].red << setw(4) << pixels[i].green << setw(4) << pixels[i].blue << endl;
     }
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-                                             #include "stacker.h"
-#include <iostream>
+}
 
-using namespace std;
-
-//stacker.cpp (This is where we will implement stacker class methods)
