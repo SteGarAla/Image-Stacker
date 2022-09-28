@@ -26,10 +26,7 @@ int main() {
     cout << "Please enter the number of images: " << endl;
     cin >> imageAmount;
 
-    //call a method with imageName & imageAmount parameters
-
     stacker obj;
-
     obj.imageChoice(imageName,imageAmount);
 
 
